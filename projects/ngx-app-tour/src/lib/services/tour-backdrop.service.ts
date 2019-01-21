@@ -44,7 +44,7 @@ export class TourBackdropService {
   private setStyles(boundingRect: DOMRect, radius, color) {
     const shadowColor = color ? color : 'rgba(0, 0, 0, 0.7)';
     let styles: any = {
-      'box-shadow': `0 0 0 9999px ${shadowColor}`,
+      'box-shadow': `0 0 0 1999px ${shadowColor}`,
       'border-radius': radius ? radius : '100%',
     };
 
